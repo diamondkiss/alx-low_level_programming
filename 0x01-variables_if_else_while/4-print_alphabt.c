@@ -1,24 +1,19 @@
 #include <stdio.h>
-
 /**
- * main -main function
+ * main - entry point of the program
  *
- * Return: always 0
- */
+ * Return: Always 0 (success)
+ **/
 
 int main(void)
 {
-	char a;
+	char ch;
 
-	for (a = 'a'; a <= 'Z'; a++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (a == 'q' || a == 'e')
-			continue;
-
-		/**putchar(a);*/
+		if (ch != 'q' && ch != 'e')
+			putchar(ch);
 	}
-	putchar(a);
 	putchar('\n');
 	return (0);
 }
-
