@@ -16,8 +16,8 @@ int main(void)
 		if (a != b)
 		{
 			putchar(a + '0');
-			putchar(' ');
 			putchar(b + '0');
+			putchar(' ');
 			if (a + b < 197)
 			{
 				putchar(',');
