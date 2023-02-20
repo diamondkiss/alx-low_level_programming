@@ -7,18 +7,20 @@
 
 int main(void)
 {
-	int a, b;
+	long a, b;
 
-	for (a = 00; a < 99; a++)
+	for (a = 0; a < 99; a++)
 {
-	for (b = a + 01; b < 100; b++)
+	for (b = a + 1; b < 100; b++)
 	{
 		if (a != b)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
+			putchar((a / 10) + '0');
+			putchar((a % 10) +  '0');
 			putchar(' ');
-			if (a + b < 197)
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+			if (a + b < 198)
 			{
 				putchar(',');
 				putchar(' ');
