@@ -5,10 +5,11 @@
  * Return: Numbers from 0 to 9
  *
  */
+
 void print_numbers(void)
 {
-	int y
-		
+	int y;
+
 	for (y = 0; y < 10; y++)
 	{
 	_putchar(y + '0');
