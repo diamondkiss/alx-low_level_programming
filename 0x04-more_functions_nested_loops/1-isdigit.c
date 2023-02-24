@@ -3,7 +3,7 @@
 /**
  * _isdigit - check if a letter is uppercase
  *@x: the number to be checked
- * Returns: 1 if c is uppercase 0 otherwise
+ * Return: 1 if c is uppercase 0 otherwise
  */
 
 int _isdigit(int x)
