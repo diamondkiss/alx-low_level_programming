@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Prints numbers from 0 to 9
- *Description:  do not print 2 and 4
+ * Description: Print the numbers excluding 2 and 4
  * Return: Numbers from 0 to 9
  *
  */
