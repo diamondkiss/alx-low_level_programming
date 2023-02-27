@@ -6,10 +6,8 @@
  * @n: An integer input pointer
  * Return: Always 0n(success)
  */
-void reset_to_98(int *n);
-
+void reset_to_98(int *n)
 {
 
 	*n = 98;
-
 }
