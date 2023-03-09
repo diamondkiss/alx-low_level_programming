@@ -4,9 +4,11 @@
 int _sqrt(int n, int i);
 
 /**
- * _sqrt_recurtion -breturn the natural square root of number
+ * _sqrt_recursion - return the natural square root of number
  * @n: number to calculate the natural square rot
+ * Return: the natural square root
  */
+
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
