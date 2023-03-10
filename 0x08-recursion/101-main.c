@@ -29,7 +29,7 @@ int main(void)
 	r = wildcmp("main.c", "**.*c");
 	printf("%d\n", r);
 	r = wildcmp("main-main.c", "ma*in.c");
-	ntf("%d\n", r);
+	printf("%d\n", r);
 	r = wildcmp("main", "main*d");
 	printf("%d\n", r);
 	r = wildcmp("abc", "*b");
